@@ -20,26 +20,29 @@
     <div class="shop-section">
         <div class="container">
             <div class="filters">
-                <h3>Filters <i class="fa-solid fa-sliders"></i></h3>
+                <h3>Filters <i class="fa-solid fa-sliders fa-rotate-270"></i></h3>
 
-                <div class="filter-group">
+                <!-- Category -->
+                <div class="filter-box">
                     <h4>Category</h4>
-                    <ul>
-                        <li>T-shirts</li>
-                        <li>Shirts</li>
-                        <li>Jeans</li>
-                        <li>Shorts</li>
-                    </ul>
+                    <div id="categories"></div>
                 </div>
 
-                <div class="filter-group">
+                <!-- Brand -->
+                <div class="filter-box">
+                    <h4>Brand</h4>
+                    <div id="brands"></div>
+                </div>
+
+                <!-- Price -->
+                <div class="filter-box">
                     <h4>Price</h4>
-                    <input type="range" min="50" max="300">
+                    <input type="range" id="priceRange" min="0" max="2000" value="2000">
+                    <span id="priceValue">$2000</span>
                 </div>
 
                 <button class="apply-btn">Apply Filter</button>
             </div>
-
             <div class="shop-products">
                 <div class="products-grid"></div>
 
