@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="./CSS/cart.css">
+    <link rel="stylesheet" href="./CSS/layout.css">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <!-- Robot Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="offer"></div>
+    <div id="nav"></div>
+
+    <div class="your-cart">
+        <div class="container">
+            <h1>your cart</h1>
+            <div class="full-order">
+                <div class="cart-items">
+                    
+                </div>
+                <div class="order-summary">
+                    <h2>Order Summary</h2>
+                    <div class="summary-details">
+                        <span>Subtotal: <span id="subtotal">$0.00</span></span><br>
+                        <span>Discount (-20%): <span id="discount">$0.00</span></span><br>
+                        <span>Delivery Fee: <span id="delivery">$0.00</span></span> <br>
+                    </div>
+                    <div class="total">
+                        <p>Total: <span id="total">$0.00</span></p>
+                        <div class="promo-discount">
+                            <i class="fa-solid fa-tag"></i>
+                            <input type="text" id="promo-code" placeholder="Enter promo code">
+                            <button id="apply-promo">Apply</button>
+                        </div>
+                    </div>
+                    <button id="checkout">Go To Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+    <script src="./JS/cart.js"></script>
+</body>
+</html>

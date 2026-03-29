@@ -1,0 +1,233 @@
+{
+  "products": [
+    {
+      "id": 25,
+      "name": "Vertical Striped Shirt",
+      "price": 186,
+      "original_price": 232,
+      "discount": 20,
+      "rating": 5.0,
+      "category": "Shirts",
+      "product_details": {
+        "material_composition": "100% Linen",
+        "care_instructions": "Machine wash cold, hang dry, iron on medium heat",
+        "fit_type": "Relaxed Fit",
+        "pattern": "Vertical Stripes",
+        "collar_type": "Mandarin / Band Collar",
+        "sleeve_type": "Long Sleeve",
+        "available_sizes": ["S", "M", "L", "XL", "XXL"],
+        "available_colors": ["Sage Green", "Dusty Blue", "Off White"],
+        "country_of_origin": "Italy"
+      },
+      "reviews": [
+        {
+          "id": "r2501",
+          "author": "Sebastian Moore",
+          "rating": 5,
+          "comment": "Absolutely stunning shirt. The linen is incredibly breathable and the mandarin collar gives it a refined, minimalist look. A wardrobe essential.",
+          "date": "2024-09-03"
+        },
+        {
+          "id": "r2502",
+          "author": "Julian Harte",
+          "rating": 5,
+          "comment": "Best shirt I've bought this year. The vertical stripes are subtle yet elegant and it pairs with everything from chinos to shorts.",
+          "date": "2024-10-19"
+        },
+        {
+          "id": "r2503",
+          "author": "Freddie Armstrong",
+          "rating": 5,
+          "comment": "Exceptional quality for the price, especially with the discount. The sage green is exactly as pictured and the drape is beautiful.",
+          "date": "2025-02-07"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does linen wrinkle easily?",
+          "answer": "Linen naturally wrinkles but this adds to its relaxed, casual charm. A light iron on medium heat will smooth it out if preferred."
+        },
+        {
+          "question": "Is this shirt see-through?",
+          "answer": "The fabric has a medium weave that is not fully opaque. Wearing a light undershirt is recommended in bright lighting."
+        },
+        {
+          "question": "Is the mandarin collar comfortable for all-day wear?",
+          "answer": "Yes, the band collar sits close to the neck without being restrictive, making it comfortable even for extended wear."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Courage Graphic T-shirt",
+      "price": 145,
+      "original_price": null,
+      "discount": null,
+      "rating": 4.0,
+      "category": "T-shirts",
+      "product_details": {
+        "material_composition": "100% Organic Cotton",
+        "care_instructions": "Machine wash cold, line dry",
+        "fit_type": "Relaxed Fit",
+        "pattern": "Graphic Print",
+        "collar_type": "Crew Neck",
+        "sleeve_type": "Short Sleeve",
+        "available_sizes": ["S", "M", "L", "XL", "XXL"],
+        "available_colors": ["Burnt Orange", "Olive Green", "Washed Black"],
+        "country_of_origin": "Bangladesh"
+      },
+      "reviews": [
+        {
+          "id": "r2601",
+          "author": "Dylan Reed",
+          "rating": 4,
+          "comment": "Love the bold Courage graphic. The burnt orange color is vibrant and rich and the relaxed fit is incredibly comfortable for all-day wear.",
+          "date": "2024-10-08"
+        },
+        {
+          "id": "r2602",
+          "author": "Mason Clark",
+          "rating": 4,
+          "comment": "Really nice streetwear tee. The organic cotton feels noticeably softer than regular cotton and the print quality is excellent.",
+          "date": "2024-12-20"
+        },
+        {
+          "id": "r2603",
+          "author": "Tyler Hughes",
+          "rating": 4,
+          "comment": "Great relaxed fit tee. The graphic hasn't cracked after multiple washes which is always a good sign. Would buy again.",
+          "date": "2025-01-30"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is the fabric environmentally friendly?",
+          "answer": "Yes, this t-shirt is made from 100% organic cotton, grown without the use of synthetic pesticides or fertilizers."
+        },
+        {
+          "question": "Will the graphic peel or crack after washing?",
+          "answer": "The graphic uses high-durability screen-print ink. Washing inside out in cold water will preserve the print quality over time."
+        },
+        {
+          "question": "How does the relaxed fit compare to a regular fit?",
+          "answer": "The relaxed fit is wider through the chest and body, giving a casual, slightly oversized look compared to a standard regular fit."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Loose Fit Bermuda Shorts",
+      "price": 80,
+      "original_price": null,
+      "discount": null,
+      "rating": 3.0,
+      "category": "Shorts",
+      "product_details": {
+        "material_composition": "100% Cotton Denim",
+        "care_instructions": "Machine wash cold, hang dry",
+        "fit_type": "Loose Fit",
+        "pattern": "Solid with Light Distressing",
+        "rise_type": "Mid Rise",
+        "closure_type": "Zip Fly with Button",
+        "length": "Above Knee (Bermuda)",
+        "available_sizes": ["28", "30", "32", "34", "36", "38"],
+        "available_colors": ["Light Blue", "Medium Blue", "Stone Wash"],
+        "country_of_origin": "Egypt"
+      },
+      "reviews": [
+        {
+          "id": "r2701",
+          "author": "George Phillips",
+          "rating": 3,
+          "comment": "Comfortable enough shorts for summer. The loose fit is very breathable but they run slightly large so consider sizing down.",
+          "date": "2024-07-15"
+        },
+        {
+          "id": "r2702",
+          "author": "Finn Murphy",
+          "rating": 3,
+          "comment": "Decent quality denim shorts. Nothing outstanding but they're perfectly fine for casual beach or weekend outings.",
+          "date": "2024-08-22"
+        },
+        {
+          "id": "r2703",
+          "author": "Oscar Bennett",
+          "rating": 3.6,
+          "comment": "Average shorts. The Bermuda length is ideal but the denim feels a bit heavy for very hot weather. Good for mild summer days.",
+          "date": "2024-09-01"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How long are the Bermuda shorts?",
+          "answer": "These shorts fall just above the knee, which is the classic Bermuda length."
+        },
+        {
+          "question": "Do these shorts have pockets?",
+          "answer": "Yes, they feature two front slash pockets and two back patch pockets."
+        },
+        {
+          "question": "Should I size up or down?",
+          "answer": "These run slightly large. We recommend sizing down by one for a better fit around the waist."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Faded Skinny Jeans",
+      "price": 210,
+      "original_price": null,
+      "discount": null,
+      "rating": 4.5,
+      "category": "Jeans",
+      "product_details": {
+        "material_composition": "98% Cotton, 2% Elastane",
+        "care_instructions": "Machine wash warm, tumble dry low",
+        "fit_type": "Skinny Fit",
+        "pattern": "Faded Solid",
+        "rise_type": "Mid Rise",
+        "closure_type": "Zip Fly with Button",
+        "available_sizes": ["28", "30", "32", "34", "36"],
+        "available_colors": ["Faded Black", "Faded Charcoal Grey"],
+        "country_of_origin": "Turkey"
+      },
+      "reviews": [
+        {
+          "id": "r2801",
+          "author": "Caleb Jordan",
+          "rating": 5,
+          "comment": "These are the best black jeans I've owned in years. The faded wash gives them an effortlessly cool, worn-in aesthetic.",
+          "date": "2024-11-05"
+        },
+        {
+          "id": "r2802",
+          "author": "Evan Price",
+          "rating": 4,
+          "comment": "Slim, comfortable and very stylish. The stretch fabric makes them easy to wear all day without feeling restricted.",
+          "date": "2024-12-28"
+        },
+        {
+          "id": "r2803",
+          "author": "Aidan Ross",
+          "rating": 4,
+          "comment": "Really happy with this purchase. The faded finish looks premium and they pair well with literally any top.",
+          "date": "2025-02-10"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Will the faded effect wash out over time?",
+          "answer": "The faded effect is a permanent fabric treatment designed to maintain its appearance with proper care."
+        },
+        {
+          "question": "Are these jeans suitable for smart-casual wear?",
+          "answer": "Yes, pair them with a blazer and loafers for a polished smart-casual look, or keep it casual with a tee and sneakers."
+        },
+        {
+          "question": "Do these jeans have stretch?",
+          "answer": "Yes, the 2% elastane blend provides a comfortable stretch while ensuring the jeans retain their shape over time."
+        }
+      ]
+    }
+  ]
+}

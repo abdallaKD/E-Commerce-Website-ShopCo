@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./CSS/login style.css" />
+    <link rel="shortcut icon" href="image/ieee.png" type="image/x-icon" />
+    <link rel="stylesheet" href="st.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- box icon link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <!-- remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <style>
+        .message {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid transparent;
+            border-radius: 5px;
+        }
+
+        .message.success {
+            color: #155724;
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+        }
+
+        .message.error {
+            color: #721c24;
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+        }
+    </style>
+</head>
+
+<body style="background-color: #232f3e;">
+    <div class="login" style="background-color: #ffffff;">
+        <div class="left">
+            <div>
+                <img src="../images/login-background.svg" />
+            </div>
+        </div>
+        <div class="right">
+            <div class="top">
+                <img src="../images/Online-shopping-logo-design-template-on-transparent-background-PNG.png" />
+                <h1>Welcome!</h1>
+                <span>Are you new here?</span>
+                <a href="sign_up.html">Create an account</a>
+            </div>
+
+            <form action="#" method="POST">
+                <input type="text" id="username" name="username" placeholder="username" class="input" required />
+                <input type="password" id="password" name="password" placeholder="password" class="input" required />
+                <button type="submit" value="submit" class="login-btn">Login</button>
+                <div class="check">
+                    <div>
+                        <input type="checkbox" value="save" class="check-btn" style="width: 15px" />
+                        <label for="save">Save Password</label>
+                    </div>
+                    <div><a href="#" class="forget-btn">Forgot Password?</a></div>
+                </div>
+            </form>
+
+            <div class="sign-social">
+                <div>Sign In with Socials</div>
+            </div>
+            <div class="social">
+                <div>
+                    <a href="#"><i class="fa-brands fa-facebook fa-2xl" style="color: #0866ff;"></i></a>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #24cc63"></i></a>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-brands fa-linkedin fa-2xl" style="color: #0a66c2"></i></a>
+                </div>
+                <!-- <div>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16" style="">
+						<path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+					  </svg></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

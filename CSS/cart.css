@@ -1,0 +1,176 @@
+@import url("offer.css");
+@import url("nav.css");
+@import url("footer.css");
+
+.nav .container{
+    border-bottom: 2px solid var(--second-color);
+}
+
+.your-cart .container h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+}
+.your-cart .container .full-order{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+.your-cart .container .cart-items,
+.your-cart .container .order-summary{
+    padding: 0 20px;
+    border-radius: 20px;
+    border: 3px solid var(--second-color);
+}
+.your-cart .container .cart-items{
+    width: 70%;
+}
+.your-cart .container .order-summary{
+    width: 30%;
+}
+.your-cart .container .cart-items .cart-item{
+    display: flex;
+    gap: 30px;
+    height: 220px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-top: 2px solid var(--second-color);
+}
+.your-cart .container .cart-items .cart-item .item-image{
+    background-color: var(--second-color);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.your-cart .container .cart-items .cart-item .item-image img{
+    width: 100%;
+    transform: scale(0.8, 0.8);
+}
+.your-cart .container .cart-items .cart-item .item-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: calc(100% - 230px);
+}
+.your-cart .container .cart-items .cart-item .item-details h3{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.your-cart .container .cart-items .cart-item .item-details h3 i{
+    color: red;
+}
+.your-cart .container .cart-items .cart-item .item-details h3 i:hover{
+    cursor: pointer;
+}
+.your-cart .container .cart-items .cart-item .item-details p:nth-of-type(1) span{
+    color: #959595;
+}
+.your-cart .container .cart-items .cart-item .item-details div:last-of-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.your-cart .container .cart-items .cart-item .item-details div:last-of-type p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.your-cart .container .cart-items .cart-item .item-details div:last-of-type .qty-box{
+    height: 40px;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    background: var(--second-color);
+    border-radius: 30px;
+    width: 150px;
+}
+.your-cart .container .cart-items .cart-item .item-details div:last-of-type .qty-box button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #f0f0f0;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.your-cart .container .cart-items .cart-item .item-details div:last-of-type .qty-box span{
+    text-align: center;
+    font-size: 18px;
+}
+
+.your-cart .container .order-summary{
+    padding: 20px;
+    max-height: 485px;
+}
+.your-cart .container .order-summary h2{
+    margin: 10px 0;
+    font-size: 28px;
+}
+.your-cart .container .order-summary .summary-details{
+    border-bottom: 3px solid var(--second-color);
+    margin-bottom: 20px;
+}
+.your-cart .container .order-summary .summary-details > span{
+    color: #959595;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.your-cart .container .order-summary .summary-details > span > span{
+    color: black;
+    font-weight: bold;
+}
+.your-cart .container .order-summary .summary-details > span #discount{
+    color: red;
+}
+.your-cart .container .order-summary .total p{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 20px;
+}
+.your-cart .container .order-summary .total p span{
+    font-weight: bold;
+    font-size: 24px;
+}
+.your-cart .container .order-summary .total .promo-discount{
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+}
+.your-cart .container .order-summary .total .promo-discount i{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 27px;
+    color: #959595;
+}
+.your-cart .container .order-summary .total .promo-discount input{
+    width: 260px;
+    padding: 15px 20px 15px 50px;
+    border-radius: 35px;
+    border: none;
+    background: var(--second-color);
+}
+.your-cart .container .order-summary .total .promo-discount button{
+    border: none;
+    background: var(--second-color);
+    border-radius: 25px;
+    padding: 0px 30px;
+    margin-left: 10px;
+    background: var(--third-color);
+}
+.your-cart .container .order-summary button:last-of-type{
+    border: none;
+    padding: 20px 0;
+    margin: 0 auto;
+    border-radius: 40px;
+    color: white;
+    width: 100%;
+    background: var(--third-color);
+}

@@ -1,0 +1,232 @@
+{
+  "products": [
+    {
+      "id": 10,
+      "name": "Checkered Shirt",
+      "price": 180,
+      "original_price": null,
+      "discount": null,
+      "rating": 4.5,
+      "category": "Shirts",
+      "product_details": {
+        "material_composition": "100% Cotton Flannel",
+        "care_instructions": "Machine wash warm, tumble dry medium",
+        "fit_type": "Regular Fit",
+        "pattern": "Checkered / Plaid",
+        "collar_type": "Classic Collar",
+        "sleeve_type": "Long Sleeve",
+        "available_sizes": ["S", "M", "L", "XL", "XXL", "3XL"],
+        "available_colors": ["Red/Blue/White", "Green/Black", "Navy/White"],
+        "country_of_origin": "Pakistan"
+      },
+      "reviews": [
+        {
+          "id": "r1001",
+          "author": "Patrick O'Brien",
+          "rating": 5,
+          "comment": "One of my favorite shirts this season. The plaid pattern is bold and the flannel is super soft. Great for layering in autumn.",
+          "date": "2024-10-14"
+        },
+        {
+          "id": "r1002",
+          "author": "Marcus Lee",
+          "rating": 4,
+          "comment": "Solid flannel shirt. Fits well and the fabric feels premium. Could use one more button on the cuff.",
+          "date": "2024-11-22"
+        },
+        {
+          "id": "r1003",
+          "author": "Tobias Grant",
+          "rating": 4,
+          "comment": "Great quality checkered shirt. True to size and very comfortable for all-day wear.",
+          "date": "2025-01-05"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is this shirt suitable for layering?",
+          "answer": "Absolutely! The regular fit makes it perfect to wear open over a t-shirt or fully buttoned on its own."
+        },
+        {
+          "question": "Does this shirt shrink after washing?",
+          "answer": "The fabric is pre-washed to minimize shrinkage. We recommend washing on a warm, not hot, cycle."
+        },
+        {
+          "question": "Is the collar stiff or soft?",
+          "answer": "The collar is semi-structured — firm enough to hold its shape but soft enough to stay comfortable all day."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Vertical Striped Shirt",
+      "price": 212,
+      "original_price": 254.4,
+      "discount": 20,
+      "rating": 5.0,
+      "category": "Shirts",
+      "product_details": {
+        "material_composition": "100% Linen",
+        "care_instructions": "Machine wash cold, hang dry, iron on medium heat",
+        "fit_type": "Relaxed Fit",
+        "pattern": "Vertical Stripes",
+        "collar_type": "Mandarin / Band Collar",
+        "sleeve_type": "Long Sleeve",
+        "available_sizes": ["S", "M", "L", "XL", "XXL"],
+        "available_colors": ["Sage Green", "Dusty Blue", "Off White"],
+        "country_of_origin": "Italy"
+      },
+      "reviews": [
+        {
+          "id": "r1101",
+          "author": "Sebastian Moore",
+          "rating": 5,
+          "comment": "Stunning shirt. The linen fabric is breathable and the mandarin collar gives it a sophisticated, minimal look.",
+          "date": "2024-09-03"
+        },
+        {
+          "id": "r1102",
+          "author": "Julian Harte",
+          "rating": 5,
+          "comment": "Best shirt I own. The vertical stripes are subtle and elegant. Perfect for both casual and smart-casual outfits.",
+          "date": "2024-10-19"
+        },
+        {
+          "id": "r1103",
+          "author": "Freddie Armstrong",
+          "rating": 5,
+          "comment": "Exceptional quality. The green color is exactly as shown. Feels luxurious and drapes beautifully.",
+          "date": "2025-02-07"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does linen wrinkle easily?",
+          "answer": "Linen naturally wrinkles but this adds to its relaxed, casual charm. A light iron on medium heat will smooth it out if preferred."
+        },
+        {
+          "question": "Is this shirt see-through?",
+          "answer": "The fabric has a medium weave that is not fully opaque. Wearing a light undershirt is recommended in bright lighting."
+        },
+        {
+          "question": "Is the mandarin collar comfortable?",
+          "answer": "Yes, the band collar is designed to sit close to the neck without being restrictive, making it comfortable for extended wear."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Skinny Fit Jeans",
+      "price": 240,
+      "original_price": 288,
+      "discount": 20,
+      "rating": 3.5,
+      "category": "Jeans",
+      "product_details": {
+        "material_composition": "93% Cotton, 5% Polyester, 2% Elastane",
+        "care_instructions": "Machine wash cold, hang dry",
+        "fit_type": "Skinny Fit",
+        "pattern": "Solid with Distressing",
+        "rise_type": "Mid Rise",
+        "closure_type": "Zip Fly with Button",
+        "available_sizes": ["28", "30", "32", "34", "36"],
+        "available_colors": ["Medium Blue", "Dark Blue", "Light Wash"],
+        "country_of_origin": "India"
+      },
+      "reviews": [
+        {
+          "id": "r1201",
+          "author": "Nate Simmons",
+          "rating": 4,
+          "comment": "Good skinny jeans with a nice amount of stretch. The distressed details look authentic and not overdone.",
+          "date": "2024-08-30"
+        },
+        {
+          "id": "r1202",
+          "author": "Kyle Patterson",
+          "rating": 3,
+          "comment": "Decent jeans but the waistband is a little snug. Would suggest sizing up. Color is great though.",
+          "date": "2024-11-14"
+        },
+        {
+          "id": "r1203",
+          "author": "Rhys Davidson",
+          "rating": 3,
+          "comment": "Average quality for the price point. Fit is good but the denim feels thinner than expected.",
+          "date": "2025-01-27"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Are the distressed details pre-made or will they develop over time?",
+          "answer": "The distressing is pre-made and factory-treated, so the jeans arrive with that worn-in look right out of the box."
+        },
+        {
+          "question": "Do these jeans stretch out over time?",
+          "answer": "The elastane content helps them retain their shape. They may relax slightly after a full day of wear but return to shape after washing."
+        },
+        {
+          "question": "Are these suitable for colder weather?",
+          "answer": "They work year-round. For colder months, we recommend pairing them with thermal underlayers for extra warmth."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Faded Skinny Jeans",
+      "price": 210,
+      "original_price": null,
+      "discount": null,
+      "rating": 4.5,
+      "category": "Jeans",
+      "product_details": {
+        "material_composition": "98% Cotton, 2% Elastane",
+        "care_instructions": "Machine wash warm, tumble dry low",
+        "fit_type": "Skinny Fit",
+        "pattern": "Faded Solid",
+        "rise_type": "Mid Rise",
+        "closure_type": "Zip Fly with Button",
+        "available_sizes": ["28", "30", "32", "34", "36"],
+        "available_colors": ["Faded Black", "Faded Charcoal Grey"],
+        "country_of_origin": "Turkey"
+      },
+      "reviews": [
+        {
+          "id": "r1301",
+          "author": "Caleb Jordan",
+          "rating": 5,
+          "comment": "These are the best black jeans I've ever owned. The faded wash gives them a cool, worn-in look that pairs with everything.",
+          "date": "2024-11-05"
+        },
+        {
+          "id": "r1302",
+          "author": "Evan Price",
+          "rating": 4,
+          "comment": "Great jeans. Slim and comfortable with just the right amount of stretch. Very stylish for the price.",
+          "date": "2024-12-28"
+        },
+        {
+          "id": "r1303",
+          "author": "Aidan Ross",
+          "rating": 4,
+          "comment": "Really happy with these jeans. The faded finish looks premium and the fit is perfect.",
+          "date": "2025-02-10"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Will the faded effect wash out over time?",
+          "answer": "The faded effect is a permanent fabric treatment and is designed to maintain its look with proper care."
+        },
+        {
+          "question": "Are these jeans suitable for formal wear?",
+          "answer": "These work best for smart-casual looks. Pair them with a blazer and dress shoes for a polished semi-formal appearance."
+        },
+        {
+          "question": "Do these jeans have stretch?",
+          "answer": "Yes, the 2% elastane blend provides comfortable stretch and ensures the jeans retain their shape after repeated wear."
+        }
+      ]
+    }
+  ]
+}

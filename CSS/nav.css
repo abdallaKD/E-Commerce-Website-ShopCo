@@ -1,0 +1,62 @@
+.nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .container .logo{
+    font-size: 34px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+.nav .container ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav .container ul li{
+    list-style: none;
+}
+.nav .container ul li a{
+    text-decoration: none;
+    color: var(--third-color);
+}
+.nav .container ul li i{
+    margin-left: 6px;
+}
+.nav .container .search-cart-profile{
+    width: 55%;
+    position: relative;
+}
+.nav .container .search-cart-profile input{
+    width: 85%;
+    margin: 0 45px 0 0;
+    border-radius: 25px;
+    height: 50px;
+    padding-left: 50px;
+    border: none;
+    background: var(--second-color);
+}
+.nav .container .search-cart-profile i:first-of-type{
+    color: #959595;
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+.nav .container .search-cart-profile i:nth-last-child(1),
+.nav .container .search-cart-profile i:nth-last-child(2){
+    font-size: 20px;
+    margin-right: 0px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav .container .search-cart-profile i:nth-last-child(2){
+    right: 40px;
+}
+.nav .container .search-cart-profile i:nth-last-child(1):hover,
+.nav .container .search-cart-profile i:nth-last-child(2):hover{
+    cursor: pointer;
+}

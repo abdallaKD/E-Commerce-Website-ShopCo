@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="./CSS/single_product.css">
+    <link rel="stylesheet" href="./CSS/layout.css">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <!-- Robot Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="offer"></div>
+    <div id="nav"></div>
+
+    <div class="single-product-details">
+        <div class="container">
+            <div class="product-images">
+                <div class="min-images"></div>
+                <div class="main-image"></div>
+            </div>
+            <div class="product-information">
+                <h1 class="title"></h1>
+                <div class="rating">
+                    <span class="stars"></span>
+                    <span class="product-rate"></span>
+                    <span class="all-rate">/5</span>
+                </div>
+                <div class="price-box">
+                    <span class="product-price"></span>
+                    <span class="old-price"></span>
+                    <span class="discount"></span>
+                </div>
+                <p class="product-desc"></p>
+                <div class="color-selection">
+                    <p class="colors">Select Colors</p>
+                    <span class="red"></span>
+                    <span class="green"></span>
+                    <span class="blue"></span>
+                </div>
+                <div class="size-selection">
+                    <p class="sizes">Choose Size</p>
+                    <span class="small">Small</span>
+                    <span class="medium">Medium</span>
+                    <span class="large active">Large</span>
+                    <span class="x-large">X-Large</span>
+                </div>
+                <div class="add-to-cart-section">
+                    <div class="quantity">
+                        <button class="decrease">-</button>
+                        <span class="qty">1</span>
+                        <button class="increase">+</button>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews-section">
+        <div class="container">
+            <h3>Rating & Reviews</h3>
+            <div class="reviews-header">
+                <h2>All Reviews <span>(</span><span class="reviews-count">0</span><span>)</span></h2>
+                <div class="reviews-controls">
+                    <select class="sort-reviews">
+                        <option value="latest">Latest</option>
+                        <option value="oldest">Oldest</option>
+                        <option value="highest">Highest Rating</option>
+                        <option value="lowest">Lowest Rating</option>
+                    </select>
+
+                    <button class="write-review">Write a Review</button>
+                </div>
+            </div>
+            <div class="reviews-container"></div>
+            <div class="load-more">
+                <a href="#">Load More Reviews</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="similar-products">
+        <div class="container">
+            <h1>you might also like</h1>
+            <div class="similar-products-products">
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer"></div>
+    <script src="./JS/singleProduct.js"></script>
+</body>
+</html>

@@ -1,0 +1,405 @@
+{
+  "products": [
+    {
+      "id": 14,
+      "name": "T-shirt with Tape Details",
+      "price": 120,
+      "original_price": null,
+      "discount": null,
+      "rating": 4.5,
+      "category": "T-shirts",
+      "product_details": {
+        "material_composition": "100% Cotton",
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "fit_type": "Regular Fit",
+        "pattern": "Solid with Tape Detailing",
+        "collar_type": "Crew Neck",
+        "sleeve_type": "Short Sleeve",
+        "available_sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "available_colors": ["Black", "Charcoal Grey", "Navy"],
+        "country_of_origin": "Bangladesh"
+      },
+      "reviews": [
+        {
+          "id": "r1401",
+          "author": "Jordan Blake",
+          "rating": 5,
+          "comment": "Love the subtle tape details on this tee. It elevates a basic black shirt into something that looks more premium and stylish.",
+          "date": "2024-10-11"
+        },
+        {
+          "id": "r1402",
+          "author": "Marcus Webb",
+          "rating": 4,
+          "comment": "Great quality shirt. The tape detailing is a nice touch and the fabric feels soft and durable. Fits true to size.",
+          "date": "2024-12-05"
+        },
+        {
+          "id": "r1403",
+          "author": "Theo Griffiths",
+          "rating": 4,
+          "comment": "Very clean and minimal design. The tape accents on the sleeves look sharp. Would definitely buy in other colors.",
+          "date": "2025-01-18"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What are the tape details made of?",
+          "answer": "The tape details are woven fabric trims stitched along the sleeves and collar for a sporty, refined look."
+        },
+        {
+          "question": "Does this shirt shrink after washing?",
+          "answer": "The fabric is pre-shrunk. Washing in cold water will help maintain the original size and shape."
+        },
+        {
+          "question": "Is this shirt suitable for gym or sports use?",
+          "answer": "While it has a sporty aesthetic, it is designed for casual everyday wear rather than high-intensity athletic activity."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Sleeve Striped T-shirt",
+      "price": 130,
+      "original_price": 169,
+      "discount": 30,
+      "rating": 4.5,
+      "category": "T-shirts",
+      "product_details": {
+        "material_composition": "100% Cotton",
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "fit_type": "Regular Fit",
+        "pattern": "Vertical Stripes with Solid Sleeves",
+        "collar_type": "Crew Neck",
+        "sleeve_type": "Raglan Short Sleeve",
+        "available_sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "available_colors": ["Orange/Black", "Navy/White", "Red/Grey"],
+        "country_of_origin": "China"
+      },
+      "reviews": [
+        {
+          "id": "r1501",
+          "author": "Liam Turner",
+          "rating": 5,
+          "comment": "The orange and black color combo is amazing. Very comfortable and the fit is exactly right for a casual look.",
+          "date": "2024-09-25"
+        },
+        {
+          "id": "r1502",
+          "author": "Noah Barnes",
+          "rating": 4,
+          "comment": "Great value at the discounted price. Soft fabric and a bold design that stands out. Will order again.",
+          "date": "2024-11-03"
+        },
+        {
+          "id": "r1503",
+          "author": "Connor Walsh",
+          "rating": 4,
+          "comment": "Nice tee with a unique look thanks to the contrasting sleeves. Washes well and holds its color.",
+          "date": "2025-02-28"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does the color fade after multiple washes?",
+          "answer": "To preserve the vibrant color, wash inside out in cold water and avoid tumble drying on high heat."
+        },
+        {
+          "question": "Are the stripes on the body or the sleeves?",
+          "answer": "The vertical stripes run along the body while the raglan sleeves are solid in a contrasting color."
+        },
+        {
+          "question": "Is this shirt good for outdoor activities?",
+          "answer": "Yes, the lightweight cotton makes it comfortable for casual outdoor activities and everyday wear."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Courage Graphic T-shirt",
+      "price": 145,
+      "original_price": null,
+      "discount": null,
+      "rating": 4.0,
+      "category": "T-shirts",
+      "product_details": {
+        "material_composition": "100% Organic Cotton",
+        "care_instructions": "Machine wash cold, line dry",
+        "fit_type": "Relaxed Fit",
+        "pattern": "Graphic Print",
+        "collar_type": "Crew Neck",
+        "sleeve_type": "Short Sleeve",
+        "available_sizes": ["S", "M", "L", "XL", "XXL"],
+        "available_colors": ["Burnt Orange", "Olive Green", "Washed Black"],
+        "country_of_origin": "Bangladesh"
+      },
+      "reviews": [
+        {
+          "id": "r1601",
+          "author": "Dylan Reed",
+          "rating": 4,
+          "comment": "Love the bold Courage graphic. The orange color is rich and vibrant, and the relaxed fit is super comfortable.",
+          "date": "2024-10-08"
+        },
+        {
+          "id": "r1602",
+          "author": "Mason Clark",
+          "rating": 4,
+          "comment": "Great tee for streetwear styling. The organic cotton feels noticeably softer than regular cotton shirts.",
+          "date": "2024-12-20"
+        },
+        {
+          "id": "r1603",
+          "author": "Tyler Hughes",
+          "rating": 4,
+          "comment": "Solid streetwear tee. Fits boxy which I prefer. The graphic print is well applied and hasn't cracked after washing.",
+          "date": "2025-01-30"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is the fabric environmentally friendly?",
+          "answer": "Yes, this t-shirt is crafted from 100% organic cotton, grown without the use of synthetic pesticides or fertilizers."
+        },
+        {
+          "question": "Will the graphic peel or crack after washing?",
+          "answer": "The graphic uses high-durability screen-print ink. Washing inside out in cold water will preserve the print quality."
+        },
+        {
+          "question": "How does the relaxed fit compare to a regular fit?",
+          "answer": "The relaxed fit is slightly wider through the chest and body, giving a casual, oversized look compared to a standard regular fit."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "One Life Graphic T-shirt",
+      "price": 260,
+      "original_price": 364,
+      "discount": 40,
+      "rating": 4.5,
+      "category": "T-shirts",
+      "product_details": {
+        "material_composition": "100% Premium Cotton",
+        "care_instructions": "Machine wash cold, do not tumble dry, iron on low heat",
+        "fit_type": "Oversized Fit",
+        "pattern": "Graphic Print",
+        "collar_type": "Crew Neck",
+        "sleeve_type": "Short Sleeve",
+        "available_sizes": ["S", "M", "L", "XL", "XXL", "3XL"],
+        "available_colors": ["Olive Green", "Washed Black", "Army Brown"],
+        "country_of_origin": "Portugal"
+      },
+      "reviews": [
+        {
+          "id": "r1701",
+          "author": "Vincent Holloway",
+          "rating": 5,
+          "comment": "Premium quality tee. The olive green color is exactly as pictured and the graphic is impeccably printed. Worth every penny.",
+          "date": "2024-09-17"
+        },
+        {
+          "id": "r1702",
+          "author": "Dominic Yates",
+          "rating": 4,
+          "comment": "Excellent graphic tee. The oversized cut is very on-trend and the fabric feels thick and durable.",
+          "date": "2024-11-29"
+        },
+        {
+          "id": "r1703",
+          "author": "Rafael Costa",
+          "rating": 4,
+          "comment": "Great shirt especially at the discounted price. The One Life script looks amazing and the color holds well after washing.",
+          "date": "2025-02-20"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What style is the 'One Life' graphic?",
+          "answer": "The graphic features a bold cursive script logo in a tonal tone-on-tone print for a subtle yet stylish effect."
+        },
+        {
+          "question": "Is the oversized fit very large or just slightly relaxed?",
+          "answer": "The oversized fit is notably wider and longer than a standard fit. We recommend staying in your usual size for the intended oversized look."
+        },
+        {
+          "question": "Why is this item discounted?",
+          "answer": "This item is part of our end-of-season sale. The quality and design are unchanged — it's simply a great time to grab it at a lower price."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Checkered Shirt",
+      "price": 180,
+      "original_price": null,
+      "discount": null,
+      "rating": 4.5,
+      "category": "Shirts",
+      "product_details": {
+        "material_composition": "100% Cotton Flannel",
+        "care_instructions": "Machine wash warm, tumble dry medium",
+        "fit_type": "Regular Fit",
+        "pattern": "Checkered / Plaid",
+        "collar_type": "Classic Collar",
+        "sleeve_type": "Long Sleeve",
+        "available_sizes": ["S", "M", "L", "XL", "XXL", "3XL"],
+        "available_colors": ["Red/Blue/White", "Green/Black", "Navy/White"],
+        "country_of_origin": "Pakistan"
+      },
+      "reviews": [
+        {
+          "id": "r1801",
+          "author": "Patrick O'Brien",
+          "rating": 5,
+          "comment": "My go-to flannel shirt. The plaid pattern is bold, the fabric is super soft and it layers perfectly over any tee.",
+          "date": "2024-10-14"
+        },
+        {
+          "id": "r1802",
+          "author": "Marcus Lee",
+          "rating": 4,
+          "comment": "Really well made shirt. Feels premium and fits perfectly. The colors are rich and vibrant.",
+          "date": "2024-11-22"
+        },
+        {
+          "id": "r1803",
+          "author": "Tobias Grant",
+          "rating": 4,
+          "comment": "Classic flannel checkered shirt. True to size and very comfortable for all-day casual wear.",
+          "date": "2025-01-05"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is this shirt suitable for layering?",
+          "answer": "Absolutely! The regular fit is ideal for wearing open over a t-shirt or fully buttoned as a standalone piece."
+        },
+        {
+          "question": "Does this shirt shrink after washing?",
+          "answer": "The fabric is pre-washed to minimize shrinkage. Washing on a warm cycle rather than hot is recommended."
+        },
+        {
+          "question": "Is the collar stiff or soft?",
+          "answer": "The collar is semi-structured — firm enough to hold its shape but comfortable enough for all-day wear."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Loose Fit Bermuda Shorts",
+      "price": 240,
+      "original_price": 288,
+      "discount": 20,
+      "rating": 4.5,
+      "category": "Shorts",
+      "product_details": {
+        "material_composition": "100% Cotton Denim",
+        "care_instructions": "Machine wash cold, hang dry",
+        "fit_type": "Loose Fit",
+        "pattern": "Solid with Distressing",
+        "rise_type": "Mid Rise",
+        "closure_type": "Zip Fly with Button",
+        "length": "Above Knee (Bermuda)",
+        "available_sizes": ["28", "30", "32", "34", "36", "38"],
+        "available_colors": ["Light Blue", "Medium Blue", "Stone Wash"],
+        "country_of_origin": "Egypt"
+      },
+      "reviews": [
+        {
+          "id": "r1901",
+          "author": "George Phillips",
+          "rating": 5,
+          "comment": "These are the most comfortable denim shorts I own. The loose fit is perfect for summer and the distressing looks very natural.",
+          "date": "2024-07-20"
+        },
+        {
+          "id": "r1902",
+          "author": "Finn Murphy",
+          "rating": 4,
+          "comment": "Great shorts at a discounted price. The denim quality is solid and they look even better in person than in photos.",
+          "date": "2024-08-15"
+        },
+        {
+          "id": "r1903",
+          "author": "Oscar Bennett",
+          "rating": 4,
+          "comment": "Very comfortable and stylish Bermuda shorts. The loose fit gives great freedom of movement and pairs well with any casual top.",
+          "date": "2024-09-09"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How long are the Bermuda shorts?",
+          "answer": "These shorts fall just above the knee, which is the classic Bermuda length."
+        },
+        {
+          "question": "Do these shorts have pockets?",
+          "answer": "Yes, they feature two front slash pockets and two back patch pockets for practicality."
+        },
+        {
+          "question": "Should I size up or down for the loose fit?",
+          "answer": "These run true to size. The loose fit is built into the design, so we recommend ordering your usual waist size."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Relaxed Fit Twill Utility Shorts",
+      "price": 260,
+      "original_price": 286,
+      "discount": 10,
+      "rating": 5.0,
+      "category": "Shorts",
+      "product_details": {
+        "material_composition": "98% Cotton, 2% Elastane Twill",
+        "care_instructions": "Machine wash warm, tumble dry low",
+        "fit_type": "Relaxed Fit",
+        "pattern": "Solid",
+        "rise_type": "Mid Rise",
+        "closure_type": "Zip Fly with Button",
+        "length": "Above Knee",
+        "available_sizes": ["28", "30", "32", "34", "36", "38"],
+        "available_colors": ["Khaki", "Olive", "Stone", "Navy"],
+        "country_of_origin": "Vietnam"
+      },
+      "reviews": [
+        {
+          "id": "r2001",
+          "author": "Spencer Hall",
+          "rating": 5,
+          "comment": "These utility shorts are incredible. The cargo pockets are functional and the twill fabric feels very high quality. My new summer staple.",
+          "date": "2024-06-28"
+        },
+        {
+          "id": "r2002",
+          "author": "Carter Mills",
+          "rating": 5,
+          "comment": "Perfect shorts. The relaxed fit is comfortable without being baggy. The khaki color goes with literally everything.",
+          "date": "2024-08-03"
+        },
+        {
+          "id": "r2003",
+          "author": "Reid Lawson",
+          "rating": 5,
+          "comment": "Hands down the best shorts I've bought this year. Durable, stylish and very comfortable. The utility pockets make them super practical.",
+          "date": "2025-01-14"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How many pockets do these shorts have?",
+          "answer": "These shorts feature six pockets in total: two front pockets, two back pockets, and two side cargo pockets."
+        },
+        {
+          "question": "Is the twill fabric heavy or lightweight?",
+          "answer": "The twill fabric is medium-weight, making it durable enough for outdoor use while still being comfortable in warm weather."
+        },
+        {
+          "question": "Do these shorts wrinkle easily?",
+          "answer": "Twill fabric is naturally wrinkle-resistant. A light iron on low heat will remove any creases if needed."
+        }
+      ]
+    }
+  ]
+}

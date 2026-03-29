@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up</title>
+    <link rel="shortcut icon" href="image/ieee.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./CSS/login style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- box icon link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <!-- remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body style="background-color: #232f3e;">
+    <div class="login" style="background-color: #ffffff;">
+        <div class="left">
+            <div>
+                <img src="../images/login-background.svg" />
+            </div>
+        </div>
+        <div class="right">
+            <div class="top">
+                <img src="../images/Online-shopping-logo-design-template-on-transparent-background-PNG.png" />
+                <h1>Create New Account</h1>
+                <span>Already a Member?</span>
+                <a href="login.html"> Sign in</a>
+            </div>
+
+            <form action="../includes/add_account.php" method="POST">
+                
+                <!-- USERNAME -->
+                <label class="label_1">Enter your username</label>
+                <input type="text" id="username" name="username" placeholder="john_doe123" class="input" required />
+                
+                <!-- EMAIL -->
+                <label class="label_1">Enter Email</label>
+                <input type="email" id="email" name="email" placeholder="jane.smith@example.com" class="input" required />
+
+                <!-- PASSWORD -->
+                <label class="label_1">Enter Password</label>
+                <input type="password" id="password" name="password" placeholder="*********" class="input" required />
+
+                <!-- CONFIRM PASSWORD -->
+                <label class="label_1">Confirm Password</label>
+                <input type="password" id="confirm" name="confirm password" placeholder="*********" class="input" required />
+                
+                <button type="submit" value="submit">Create An Account</button>
+                
+                <div class="check">
+                    <div>
+                        <input type="checkbox" value="save" class="check-btn" style="width: 15px" />
+                        <label for="save" class="label">Keep me signed in</label>
+                    </div>
+                </div>
+            </form>
+            <div class="sign-social">
+                <div>Sign-Up with Socials</div>
+            </div>
+            <div class="social">
+                <div>
+                    <a href="#"><i class="fa-brands fa-facebook fa-2xl" style="color: #0866ff;"></i></a>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #24cc63"></i></a>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-brands fa-linkedin fa-2xl" style="color: #0a66c2"></i></a>
+                </div>
+            </div>
+            <footer>Copyrights &copy;2023 GeoTrip.com. Build by Themezhub.</footer>
+        </div>
+    </div>
+</body>
+
+</html>

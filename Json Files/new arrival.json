@@ -1,0 +1,232 @@
+{
+  "products": [
+    {
+      "id": 21,
+      "name": "T-shirt with Tape Details",
+      "price": 120,
+      "original_price": null,
+      "discount": null,
+      "rating": 4.5,
+      "category": "T-shirts",
+      "product_details": {
+        "material_composition": "100% Cotton",
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "fit_type": "Regular Fit",
+        "pattern": "Solid with Tape Detailing",
+        "collar_type": "Crew Neck",
+        "sleeve_type": "Short Sleeve",
+        "available_sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "available_colors": ["Black", "Charcoal Grey", "Navy"],
+        "country_of_origin": "Bangladesh"
+      },
+      "reviews": [
+        {
+          "id": "r2101",
+          "author": "Zachary Stone",
+          "rating": 5,
+          "comment": "Super clean black tee. The tape detailing along the sleeves makes it look way more expensive than it is. Very happy with this.",
+          "date": "2024-11-02"
+        },
+        {
+          "id": "r2102",
+          "author": "Aaron Flynn",
+          "rating": 4,
+          "comment": "Great everyday shirt. Fits perfectly and the tape details give it a sporty edge without being too casual.",
+          "date": "2024-12-18"
+        },
+        {
+          "id": "r2103",
+          "author": "Elliot Nash",
+          "rating": 4,
+          "comment": "Really solid quality tee. The fabric is thick enough to feel premium but breathable for warmer days.",
+          "date": "2025-02-03"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What are the tape details made of?",
+          "answer": "The tape details are woven fabric trims stitched along the cuffs and collar for a sporty, refined finish."
+        },
+        {
+          "question": "Does this shirt shrink after washing?",
+          "answer": "The fabric is pre-shrunk. Washing in cold water will help maintain the original fit and shape."
+        },
+        {
+          "question": "Is this shirt suitable for gym or sport use?",
+          "answer": "It has a sporty aesthetic but is designed for casual everyday wear rather than high-intensity athletic activity."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Skinny Fit Jeans",
+      "price": 208,
+      "original_price": 260,
+      "discount": 20,
+      "rating": 3.5,
+      "category": "Jeans",
+      "product_details": {
+        "material_composition": "92% Cotton, 6% Polyester, 2% Elastane",
+        "care_instructions": "Machine wash cold, hang dry",
+        "fit_type": "Skinny Fit",
+        "pattern": "Solid with Distressing",
+        "rise_type": "Mid Rise",
+        "closure_type": "Zip Fly with Button",
+        "available_sizes": ["28", "30", "32", "34", "36"],
+        "available_colors": ["Medium Blue", "Dark Blue", "Light Wash"],
+        "country_of_origin": "India"
+      },
+      "reviews": [
+        {
+          "id": "r2201",
+          "author": "Chris Watson",
+          "rating": 4,
+          "comment": "These jeans fit great and the stretch makes them very comfortable throughout the day. Good value at the discounted price.",
+          "date": "2024-08-18"
+        },
+        {
+          "id": "r2202",
+          "author": "Ben Harrison",
+          "rating": 3,
+          "comment": "Decent jeans overall but the waistband runs a little tight. Recommend sizing up by one for a better fit.",
+          "date": "2024-11-10"
+        },
+        {
+          "id": "r2203",
+          "author": "Jake Coleman",
+          "rating": 3,
+          "comment": "Good quality denim but feels slightly thinner than expected. The distressed detailing looks natural though.",
+          "date": "2025-02-01"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do these jeans have stretch?",
+          "answer": "Yes, the 2% elastane content provides a comfortable stretch for ease of movement throughout the day."
+        },
+        {
+          "question": "Should I size up or down?",
+          "answer": "We recommend sizing up by one size for a more comfortable fit around the waist and thighs."
+        },
+        {
+          "question": "Are the distressed details pre-made?",
+          "answer": "Yes, the distressing is factory-treated so the jeans arrive with a worn-in look straight out of the bag."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Chechered Shirt",
+      "price": 180,
+      "original_price": null,
+      "discount": null,
+      "rating": 4.5,
+      "category": "Shirts",
+      "product_details": {
+        "material_composition": "100% Cotton Flannel",
+        "care_instructions": "Machine wash warm, tumble dry medium",
+        "fit_type": "Regular Fit",
+        "pattern": "Checkered / Plaid",
+        "collar_type": "Classic Collar",
+        "sleeve_type": "Long Sleeve",
+        "available_sizes": ["S", "M", "L", "XL", "XXL", "3XL"],
+        "available_colors": ["Red/Blue/White", "Green/Black", "Navy/White"],
+        "country_of_origin": "Pakistan"
+      },
+      "reviews": [
+        {
+          "id": "r2301",
+          "author": "Patrick O'Brien",
+          "rating": 5,
+          "comment": "One of my favorite flannel shirts. The plaid is bold and eye-catching and it layers perfectly over any tee.",
+          "date": "2024-10-14"
+        },
+        {
+          "id": "r2302",
+          "author": "Marcus Lee",
+          "rating": 4,
+          "comment": "Really well constructed shirt. Feels premium and the flannel is thick and cozy — perfect for colder months.",
+          "date": "2024-11-22"
+        },
+        {
+          "id": "r2303",
+          "author": "Tobias Grant",
+          "rating": 4,
+          "comment": "Classic flannel shirt done right. True to size and the colors are vibrant even after several washes.",
+          "date": "2025-01-05"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is this shirt suitable for layering?",
+          "answer": "Yes, the regular fit makes it ideal to wear open over a t-shirt or buttoned up on its own."
+        },
+        {
+          "question": "Does this shirt shrink after washing?",
+          "answer": "The fabric is pre-washed to minimize shrinkage. Washing on a warm rather than hot cycle is recommended."
+        },
+        {
+          "question": "Can this be worn in summer?",
+          "answer": "Due to its flannel fabric, this shirt is best suited for autumn and winter. For warmer months, we recommend our lighter cotton shirts."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Sleeve Striped T-shirt",
+      "price": 112,
+      "original_price": 160,
+      "discount": 30,
+      "rating": 4.5,
+      "category": "T-shirts",
+      "product_details": {
+        "material_composition": "100% Cotton",
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "fit_type": "Regular Fit",
+        "pattern": "Vertical Stripes with Solid Sleeves",
+        "collar_type": "Crew Neck",
+        "sleeve_type": "Raglan Short Sleeve",
+        "available_sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "available_colors": ["Orange/Black", "Navy/White", "Red/Grey"],
+        "country_of_origin": "China"
+      },
+      "reviews": [
+        {
+          "id": "r2401",
+          "author": "Liam Turner",
+          "rating": 5,
+          "comment": "The orange and black colorway is bold and eye-catching. Very comfortable and fits exactly as expected.",
+          "date": "2024-09-25"
+        },
+        {
+          "id": "r2402",
+          "author": "Noah Barnes",
+          "rating": 4,
+          "comment": "Excellent value at the discounted price. The contrasting raglan sleeves make this tee look unique and stylish.",
+          "date": "2024-11-03"
+        },
+        {
+          "id": "r2403",
+          "author": "Connor Walsh",
+          "rating": 4,
+          "comment": "Great quality for the price. The fabric is soft and the color stays vibrant after washing. Very satisfied.",
+          "date": "2025-02-28"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does the orange color fade quickly?",
+          "answer": "To preserve the color, wash inside out in cold water and avoid direct sunlight when line drying."
+        },
+        {
+          "question": "Where are the stripes — on the body or sleeves?",
+          "answer": "The vertical stripes are on the body of the shirt while the raglan sleeves are solid in a contrasting color."
+        },
+        {
+          "question": "Is this shirt good for casual and sporty looks?",
+          "answer": "Yes, the raglan sleeve design gives it a sporty aesthetic that works well for both casual outings and relaxed athletic wear."
+        }
+      ]
+    }
+  ]
+}

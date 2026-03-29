@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="./CSS/shop.css">
+    <link rel="stylesheet" href="./CSS/layout.css">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <!-- Robot Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="offer"></div>
+    <div id="nav"></div>
+
+    <div class="shop-section">
+        <div class="container">
+            <div class="filters">
+                <h3>Filters <i class="fa-solid fa-sliders fa-rotate-270"></i></h3>
+
+                <div class="filter-group">
+                    <h4>Category</h4>
+                    <ul>
+                        <li>T-shirts</li>
+                        <li>Shirts</li>
+                        <li>Jeans</li>
+                        <li>Shorts</li>
+                    </ul>
+                </div>
+
+                <div class="filter-group">
+                    <h4>Price</h4>
+                    <input type="range" min="50" max="300">
+                </div>
+
+                <div class="filter-group">
+                    <h4>Size</h4>
+                    <div class="sizes">
+                        <span>S</span>
+                        <span>M</span>
+                        <span class="active">L</span>
+                        <span>XL</span>
+                    </div>
+                </div>
+
+                <button class="apply-btn">Apply Filter</button>
+            </div>
+
+            <div class="shop-products">
+                <div class="products-grid"></div>
+
+                <div class="pagination">
+                    <button id="prev">Previous</button>
+                    <div id="pages"></div>
+                    <button id="next">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+    <script src="./JS/shop.js"></script>
+</body>
+</html>

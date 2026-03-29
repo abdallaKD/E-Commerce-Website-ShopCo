@@ -1,0 +1,518 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Gradient Graphic T-shirt",
+      "price": 145,
+      "original_price": null,
+      "discount": null,
+      "rating": 3.5,
+      "category": "T-shirts",
+      "product_details": {
+        "material_composition": "100% Cotton",
+        "care_instructions": "Machine wash cold, do not bleach",
+        "fit_type": "Regular Fit",
+        "pattern": "Graphic Print",
+        "collar_type": "Crew Neck",
+        "sleeve_type": "Short Sleeve",
+        "available_sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "available_colors": ["White", "Light Grey"],
+        "country_of_origin": "Bangladesh"
+      },
+      "reviews": [
+        {
+          "id": "r101",
+          "author": "James Carter",
+          "rating": 4,
+          "comment": "Love the colorful gradient design! Fits true to size and the fabric feels great. Would definitely buy again.",
+          "date": "2024-11-15"
+        },
+        {
+          "id": "r102",
+          "author": "Mike Thornton",
+          "rating": 3,
+          "comment": "Decent quality for the price. The print is vibrant but faded slightly after a few washes.",
+          "date": "2024-12-02"
+        },
+        {
+          "id": "r103",
+          "author": "Lucas Rivera",
+          "rating": 3,
+          "comment": "Nice casual tee. Nothing exceptional but gets the job done.",
+          "date": "2025-01-08"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does the graphic fade after washing?",
+          "answer": "We recommend washing inside out in cold water to preserve the graphic print for longer."
+        },
+        {
+          "question": "Is this shirt pre-shrunk?",
+          "answer": "Yes, the fabric is pre-shrunk to minimize shrinkage after washing."
+        },
+        {
+          "question": "What is the fabric weight?",
+          "answer": "The fabric weight is 180 GSM, making it medium weight and comfortable for everyday wear."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Polo with Tipping Details",
+      "price": 180,
+      "original_price": null,
+      "discount": null,
+      "rating": 4.5,
+      "category": "Polos",
+      "product_details": {
+        "material_composition": "95% Cotton, 5% Elastane",
+        "care_instructions": "Machine wash warm, tumble dry low",
+        "fit_type": "Slim Fit",
+        "pattern": "Solid with Tipping",
+        "collar_type": "Polo Collar",
+        "sleeve_type": "Short Sleeve",
+        "available_sizes": ["S", "M", "L", "XL", "XXL"],
+        "available_colors": ["Dark Red", "Navy Blue", "Forest Green"],
+        "country_of_origin": "Portugal"
+      },
+      "reviews": [
+        {
+          "id": "r201",
+          "author": "Oliver Hughes",
+          "rating": 5,
+          "comment": "Excellent polo! The tipping detail on the collar gives it a premium feel. Perfect for smart-casual occasions.",
+          "date": "2024-10-20"
+        },
+        {
+          "id": "r202",
+          "author": "Ethan Brooks",
+          "rating": 4,
+          "comment": "Very well made polo. Fits perfectly and the material is soft and breathable.",
+          "date": "2024-11-30"
+        },
+        {
+          "id": "r203",
+          "author": "Nathan Powell",
+          "rating": 4,
+          "comment": "Great quality for the price. The color is rich and the stitching is clean.",
+          "date": "2025-02-14"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is this polo suitable for office wear?",
+          "answer": "Yes, its slim fit and tipping detail give it a smart appearance suitable for business-casual environments."
+        },
+        {
+          "question": "Does this polo have a chest pocket?",
+          "answer": "No, this polo does not include a chest pocket for a cleaner, more modern look."
+        },
+        {
+          "question": "How many buttons does the placket have?",
+          "answer": "The placket features a 3-button closure."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Black Striped T-shirt",
+      "price": 105,
+      "original_price": 150,
+      "discount": 30,
+      "rating": 5.0,
+      "category": "T-shirts",
+      "product_details": {
+        "material_composition": "100% Cotton",
+        "care_instructions": "Machine wash warm, tumble dry",
+        "fit_type": "Classic Fit",
+        "pattern": "Vertical Stripes",
+        "collar_type": "Round Neck",
+        "sleeve_type": "Raglan Short Sleeve",
+        "available_sizes": ["XS", "S", "M", "L", "XL"],
+        "available_colors": ["Black/White"],
+        "country_of_origin": "Turkey"
+      },
+      "reviews": [
+        {
+          "id": "r301",
+          "author": "Samuel Edwards",
+          "rating": 5,
+          "comment": "Absolutely perfect tee. The striped design is clean and sharp. Got so many compliments wearing this.",
+          "date": "2024-09-12"
+        },
+        {
+          "id": "r302",
+          "author": "Daniel Foster",
+          "rating": 5,
+          "comment": "Best t-shirt I've bought this year. Soft fabric, great fit, and the raglan sleeves look awesome.",
+          "date": "2024-10-05"
+        },
+        {
+          "id": "r303",
+          "author": "Ryan Mitchell",
+          "rating": 5,
+          "comment": "Incredible value especially with the discount. Quality is top notch. Will order in more colors if available.",
+          "date": "2025-01-22"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Why is this item discounted?",
+          "answer": "This item is part of our seasonal sale. The quality remains the same — great price, great product!"
+        },
+        {
+          "question": "Are the stripes horizontal or vertical?",
+          "answer": "The stripes are vertical, offering a slimming and elongating visual effect."
+        },
+        {
+          "question": "Does this shirt run large or small?",
+          "answer": "This shirt runs true to size. We recommend ordering your usual size."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Skinny Fit Jeans",
+      "price": 208,
+      "original_price": 260,
+      "discount": 20,
+      "rating": 3.5,
+      "category": "Jeans",
+      "product_details": {
+        "material_composition": "92% Cotton, 6% Polyester, 2% Elastane",
+        "care_instructions": "Machine wash cold, hang dry",
+        "fit_type": "Skinny Fit",
+        "pattern": "Solid",
+        "rise_type": "Mid Rise",
+        "closure_type": "Zip Fly with Button",
+        "available_sizes": ["28", "30", "32", "34", "36"],
+        "available_colors": ["Dark Blue", "Black", "Light Blue"],
+        "country_of_origin": "India"
+      },
+      "reviews": [
+        {
+          "id": "r401",
+          "author": "Chris Watson",
+          "rating": 4,
+          "comment": "These jeans hug the legs perfectly. The stretch makes them very comfortable for all-day wear.",
+          "date": "2024-08-18"
+        },
+        {
+          "id": "r402",
+          "author": "Ben Harrison",
+          "rating": 3,
+          "comment": "Decent jeans but the waistband feels a bit tight. May want to size up.",
+          "date": "2024-11-10"
+        },
+        {
+          "id": "r403",
+          "author": "Jake Coleman",
+          "rating": 3,
+          "comment": "Good quality denim but the distressed detailing isn't my style. Otherwise solid product.",
+          "date": "2025-02-01"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do these jeans have stretch?",
+          "answer": "Yes, the 2% elastane content provides a comfortable stretch for ease of movement."
+        },
+        {
+          "question": "Should I size up or down?",
+          "answer": "We recommend sizing up by one size for a more comfortable fit around the waist and thighs."
+        },
+        {
+          "question": "Are these jeans suitable for formal occasions?",
+          "answer": "These are casual jeans best suited for everyday and smart-casual wear, not formal events."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Chechered Shirt",
+      "price": 180,
+      "original_price": null,
+      "discount": null,
+      "rating": 4.5,
+      "category": "Shirts",
+      "product_details": {
+        "material_composition": "100% Cotton Flannel",
+        "care_instructions": "Machine wash warm, tumble dry medium",
+        "fit_type": "Regular Fit",
+        "pattern": "Checkered / Plaid",
+        "collar_type": "Classic Collar",
+        "sleeve_type": "Long Sleeve",
+        "available_sizes": ["S", "M", "L", "XL", "XXL", "3XL"],
+        "available_colors": ["Red/Blue", "Green/Black", "Navy/White"],
+        "country_of_origin": "Pakistan"
+      },
+      "reviews": [
+        {
+          "id": "r501",
+          "author": "Aaron Scott",
+          "rating": 5,
+          "comment": "Perfect flannel shirt. Super warm and cozy. The plaid pattern looks great paired with dark jeans.",
+          "date": "2024-10-30"
+        },
+        {
+          "id": "r502",
+          "author": "Tom Bradley",
+          "rating": 4,
+          "comment": "Nice heavy shirt. Great for autumn and layering over a tee. True to size.",
+          "date": "2024-12-11"
+        },
+        {
+          "id": "r503",
+          "author": "Henry Morris",
+          "rating": 4,
+          "comment": "Solid flannel shirt. Great quality stitching and the colors are vibrant and rich.",
+          "date": "2025-01-19"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is this shirt suitable for layering?",
+          "answer": "Absolutely! Its regular fit makes it ideal for wearing open over a t-shirt or closed on its own."
+        },
+        {
+          "question": "Does this shirt wrinkle easily?",
+          "answer": "The flannel cotton fabric is relatively wrinkle-resistant but may need light ironing after washing."
+        },
+        {
+          "question": "Can this be worn in summer?",
+          "answer": "It is best suited for cooler weather due to its flannel fabric. For summer, we recommend our lighter cotton shirts."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sleeve Striped T-shirt",
+      "price": 112,
+      "original_price": 160,
+      "discount": 30,
+      "rating": 4.5,
+      "category": "T-shirts",
+      "product_details": {
+        "material_composition": "100% Cotton",
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "fit_type": "Regular Fit",
+        "pattern": "Vertical Stripes with Solid Sleeves",
+        "collar_type": "Crew Neck",
+        "sleeve_type": "Raglan Short Sleeve",
+        "available_sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+        "available_colors": ["Orange/Black", "Navy/White", "Red/Grey"],
+        "country_of_origin": "China"
+      },
+      "reviews": [
+        {
+          "id": "r601",
+          "author": "Liam Turner",
+          "rating": 5,
+          "comment": "The orange and black color combo is fire! Very comfortable and the fit is spot on.",
+          "date": "2024-09-25"
+        },
+        {
+          "id": "r602",
+          "author": "Noah Barnes",
+          "rating": 4,
+          "comment": "Great value especially at the discounted price. Soft fabric and nice bold design.",
+          "date": "2024-11-03"
+        },
+        {
+          "id": "r603",
+          "author": "Connor Walsh",
+          "rating": 4,
+          "comment": "Good quality tee. The contrasting sleeves make it look unique. Happy with my purchase.",
+          "date": "2025-02-28"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Does the orange color fade quickly?",
+          "answer": "To preserve the color, wash inside out in cold water and avoid direct sunlight when drying."
+        },
+        {
+          "question": "Is this shirt good for sports activities?",
+          "answer": "Yes, the lightweight cotton fabric makes it comfortable for light sports and outdoor activities."
+        },
+        {
+          "question": "Are the stripes on the body or the sleeves?",
+          "answer": "The vertical stripes are on the body of the shirt while the sleeves are solid in a contrasting color."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Courage Graphic T-shirt",
+      "price": 145,
+      "original_price": null,
+      "discount": null,
+      "rating": 4.0,
+      "category": "T-shirts",
+      "product_details": {
+        "material_composition": "100% Organic Cotton",
+        "care_instructions": "Machine wash cold, line dry",
+        "fit_type": "Relaxed Fit",
+        "pattern": "Graphic Print",
+        "collar_type": "Crew Neck",
+        "sleeve_type": "Short Sleeve",
+        "available_sizes": ["S", "M", "L", "XL", "XXL"],
+        "available_colors": ["Burnt Orange", "Olive Green", "Washed Black"],
+        "country_of_origin": "Bangladesh"
+      },
+      "reviews": [
+        {
+          "id": "r701",
+          "author": "Dylan Reed",
+          "rating": 4,
+          "comment": "Love the bold graphic and the orange color. Very comfortable and the relaxed fit is on point.",
+          "date": "2024-10-08"
+        },
+        {
+          "id": "r702",
+          "author": "Mason Clark",
+          "rating": 4,
+          "comment": "Good tee. The graphic is well done and the organic cotton feels softer than regular cotton.",
+          "date": "2024-12-20"
+        },
+        {
+          "id": "r703",
+          "author": "Tyler Hughes",
+          "rating": 4,
+          "comment": "Nice streetwear vibe. Fits a bit boxy which I like. Will order again.",
+          "date": "2025-01-30"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is the fabric environmentally friendly?",
+          "answer": "Yes, this t-shirt is made from 100% organic cotton, which is grown without harmful pesticides."
+        },
+        {
+          "question": "Does the graphic peel off after washing?",
+          "answer": "The graphic is screen-printed with high-durability ink. Wash inside out to maintain the print quality."
+        },
+        {
+          "question": "What does the 'Courage' graphic look like?",
+          "answer": "The graphic features a bold, graffiti-style 'Courage' text in multicolor lettering on the chest."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Loose Fit Bermuda Shorts",
+      "price": 80,
+      "original_price": null,
+      "discount": null,
+      "rating": 3.0,
+      "category": "Shorts",
+      "product_details": {
+        "material_composition": "100% Cotton Denim",
+        "care_instructions": "Machine wash cold, hang dry",
+        "fit_type": "Loose Fit",
+        "pattern": "Solid",
+        "rise_type": "Mid Rise",
+        "closure_type": "Zip Fly with Button",
+        "length": "Above Knee (Bermuda)",
+        "available_sizes": ["28", "30", "32", "34", "36", "38"],
+        "available_colors": ["Light Blue", "Dark Blue", "Stone Wash"],
+        "country_of_origin": "Egypt"
+      },
+      "reviews": [
+        {
+          "id": "r801",
+          "author": "George Phillips",
+          "rating": 3,
+          "comment": "Comfortable shorts for summer. The loose fit is very breathable but runs a bit large.",
+          "date": "2024-07-15"
+        },
+        {
+          "id": "r802",
+          "author": "Finn Murphy",
+          "rating": 3,
+          "comment": "Decent quality denim shorts. Nothing outstanding but they do the job for casual outings.",
+          "date": "2024-08-22"
+        },
+        {
+          "id": "r803",
+          "author": "Oscar Bennett",
+          "rating": 3,
+          "comment": "Average shorts. The length is ideal but I wish the fabric was slightly thinner for hot weather.",
+          "date": "2024-09-01"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How long are the Bermuda shorts?",
+          "answer": "The shorts fall just above the knee, making them true Bermuda-length shorts."
+        },
+        {
+          "question": "Do these shorts have pockets?",
+          "answer": "Yes, they feature two front pockets and two back pockets for practicality."
+        },
+        {
+          "question": "Should I size up for these shorts?",
+          "answer": "Yes, as these run slightly large, we recommend going down one size for a better fit."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Faded Skinny Jeans",
+      "price": 210,
+      "original_price": null,
+      "discount": null,
+      "rating": 4.5,
+      "category": "Jeans",
+      "product_details": {
+        "material_composition": "98% Cotton, 2% Elastane",
+        "care_instructions": "Machine wash warm, tumble dry low",
+        "fit_type": "Skinny Fit",
+        "pattern": "Faded Solid",
+        "rise_type": "Mid Rise",
+        "closure_type": "Zip Fly with Button",
+        "available_sizes": ["28", "30", "32", "34", "36"],
+        "available_colors": ["Faded Black", "Faded Grey"],
+        "country_of_origin": "Turkey"
+      },
+      "reviews": [
+        {
+          "id": "r901",
+          "author": "Caleb Jordan",
+          "rating": 5,
+          "comment": "These are the best black jeans I've ever owned. The faded wash gives them a cool, worn-in look.",
+          "date": "2024-11-05"
+        },
+        {
+          "id": "r902",
+          "author": "Evan Price",
+          "rating": 4,
+          "comment": "Great jeans. Slim and comfortable with just the right amount of stretch. Very stylish.",
+          "date": "2024-12-28"
+        },
+        {
+          "id": "r903",
+          "author": "Aidan Ross",
+          "rating": 4,
+          "comment": "Really happy with these jeans. The faded finish looks premium and pairs well with everything.",
+          "date": "2025-02-10"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Will the faded effect wash out over time?",
+          "answer": "The faded effect is part of the fabric treatment and is designed to maintain its look with proper care."
+        },
+        {
+          "question": "Are these jeans suitable for formal wear?",
+          "answer": "These work best for smart-casual looks. Pair them with a blazer for a semi-formal appearance."
+        },
+        {
+          "question": "Do these jeans have stretch?",
+          "answer": "Yes, the 2% elastane provides a comfortable stretch without losing shape over time."
+        }
+      ]
+    }
+  ]
+}

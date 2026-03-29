@@ -1,0 +1,22 @@
+.offer{
+    text-align: center;
+    padding: 12px 0;
+    color: var(--first-color);
+    background: var(--third-color);
+}
+.offer .container{
+    position: relative; 
+}
+.offer i{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.offer i:hover{
+    cursor: pointer;
+}
+.offer a{
+    color: var(--first-color);
+    margin-left: 10px;
+}
