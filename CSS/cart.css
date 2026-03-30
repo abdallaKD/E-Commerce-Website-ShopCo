@@ -152,7 +152,7 @@
 }
 .your-cart .container .order-summary .total .promo-discount input{
     width: 260px;
-    padding: 15px 20px 15px 50px;
+    padding: 15px 5px 15px 45px;
     border-radius: 35px;
     border: none;
     background: var(--second-color);
@@ -161,7 +161,7 @@
     border: none;
     background: var(--second-color);
     border-radius: 25px;
-    padding: 0px 30px;
+    padding: 0px 25px;
     margin-left: 10px;
     background: var(--third-color);
 }

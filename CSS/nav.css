@@ -1,3 +1,4 @@
+
 .nav .container{
     display: flex;
     align-items: center;
@@ -7,6 +8,9 @@
     font-size: 34px;
     font-weight: 900;
     letter-spacing: -1px;
+}
+.nav .container .logo:hover{
+    cursor: pointer;
 }
 .nav .container ul{
     display: flex;
