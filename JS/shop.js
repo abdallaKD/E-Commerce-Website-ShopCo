@@ -555,7 +555,6 @@ function setupPaginationButtons() {
         }
     };
 }
-
 // go to single product logic
 document.addEventListener("click", function(e) {
     const product = e.target.closest(".product");
@@ -563,5 +562,17 @@ document.addEventListener("click", function(e) {
     if (product) {
         const id = product.dataset.id;
         window.location.href = `single_product.html?id=${id}`;
+    }
+});
+// goto cart page logic
+document.addEventListener("click", (e) => {
+    if (e.target.closest(".fa-cart-shopping")) {
+        window.location.href = "cart.html";
+    }
+});
+// goto profile page logic
+document.addEventListener("click", (e) => {
+    if (e.target.closest(".fa-circle-user")) {
+        window.location.href = "login.html";
     }
 });
