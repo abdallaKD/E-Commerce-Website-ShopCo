@@ -22,19 +22,10 @@
             <div class="filters">
                 <h3>Filters <i class="fa-solid fa-sliders fa-rotate-270"></i></h3>
 
-                <!-- Category -->
                 <div class="filter-box">
-                    <h4>Category</h4>
                     <div id="categories"></div>
                 </div>
 
-                <!-- Brand -->
-                <div class="filter-box">
-                    <h4>Brand</h4>
-                    <div id="brands"></div>
-                </div>
-
-                <!-- Price -->
                 <div class="filter-box">
                     <h4>Price</h4>
                     <input type="range" id="priceRange" min="0" max="2000" value="2000">
@@ -44,12 +35,25 @@
                 <button class="apply-btn">Apply Filter</button>
             </div>
             <div class="shop-products">
+                <div class="products-header">
+                    <h3 id="categoryTitle">All Products</h3>
+
+                    <div class="sort-box">
+                        <span>Sort by:</span>
+                        <select id="sortSelect">
+                            <option value="default">Most Popular</option>
+                            <option value="priceLow">Price: Low to High</option>
+                            <option value="priceHigh">Price: High to Low</option>
+                            <option value="rating">Top Rated</option>
+                        </select>
+                    </div>
+                </div>
                 <div class="products-grid"></div>
 
                 <div class="pagination">
-                    <button id="prev">Previous</button>
+                    <button id="prev"><i class="fa-solid fa-arrow-left"></i>Previous</button>
                     <div id="pages"></div>
-                    <button id="next">Next</button>
+                    <button id="next">Next<i class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </div>
         </div>

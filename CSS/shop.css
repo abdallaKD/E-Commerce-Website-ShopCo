@@ -5,64 +5,214 @@
 .nav .container{
     border-bottom: 2px solid var(--second-color);
 }
-
+.shop-section{
+    margin-top: 50px;
+}
 .shop-section .container{
     display: flex;
     gap: 20px;
 }
 
 .filters{
-    width: 250px;
-    background: #fff;
-    padding: 15px;
-    border-radius: 10px;
+    width: 24%;
+    min-width: 24%;
+    max-height: 400px;
+    padding: 25px;
+    border-radius: 20px;
+    border: 2px solid var(--second-color);
 }
-
-.filter-box{
+.filters h3:first-of-type{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
-
+.filters h3:first-of-type i{
+    color: #959595;
+}
+.filter-box{
+    margin-bottom: 20px;
+    border-top: 2px solid var(--second-color);
+    padding-top: 15px;
+}
 .filter-box h4{
     margin-bottom: 10px;
 }
-
 .filter-box label{
     display: block;
     margin-bottom: 5px;
     cursor: pointer;
 }
-
 .apply-btn{
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     border: none;
     background: black;
     color: white;
-    border-radius: 8px;
+    border-radius: 25px;
     cursor: pointer;
+    font-size: 14px;
 }
-
+.shop-products .products-header h3{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.shop-products .products-header .sort-box span{
+    color: #959595;
+}
+.shop-products .products-header .sort-box select{
+    font-weight: 700;
+    border: none;
+}
 .products-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-
 .product-card{
     background: #fff;
     padding: 10px;
     border-radius: 10px;
 }
-
 .product-card img{
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
-
 .pagination{
     margin-top: 20px;
     display: flex;
     gap: 10px;
     align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.pagination #prev{
+    position: absolute;
+    left: 0;
+}
+.pagination #next{
+    position: absolute;
+    right: 0;
+}
+.pagination button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.pagination #prev,
+.pagination #next{
+        padding: 7px 10px;
+        border: 2px solid var(--second-color);
+        border-radius: 10px;
+        background-color: var(--first-color);
+}
+.pagination #prev i{
+    margin-right: 10px;
+}
+.pagination #next i{
+    margin-left: 10px;
+}
+.category-item {
+    margin-bottom: 10px;
+}
+.category-title {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    color: #959595;
+    text-transform: capitalize;
+}
+.brand-list {
+    padding-left: 10px;
+}
+.brand-list label {
+    display: block;
+    margin: 5px 0;
+    color: #959595;
+}
+.shop-section .container .shop-products{
+    flex-grow: 1;
+}
+.products-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sort-box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.sort-box select {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.shop-products .products-grid .product{
+    margin-bottom: 20px;
+    height: 420px;
+    transition: 0.5s all;
+    border-radius: 20px;
+}
+.shop-products .products-grid .product:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.shop-products .products-grid .product:hover img{
+    filter:drop-shadow(5px 5px 10px #959595);
+}
+.shop-products .products-grid .product .image{
+    background-color: var(--second-color);
+    border-radius: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.shop-products .products-grid .product .product-info{
+    line-height: 2em;
+}
+
+.shop-products .products-grid .product img{
+    width: 300px;
+    transition: 0.4s all;
+}
+
+.shop-products .products-grid .product-info .price{
+    font-size: 20px;
+    font-weight: bold;
+}
+.shop-products .products-grid .product-info .old-price{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: line-through;
+    color: #959595;
+    margin: 0 10px;
+}
+.shop-products .products-grid .product-info .discount{
+    border-radius: 20px;
+    color: #fe4a49;
+    background-color: #ffebec;
+    font-size: 16px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.rate i {
+    color: gold;
+    letter-spacing: 2px;
+    margin-right: 2px;
+
+}
+.rate span{
+    margin-left: 5px;
+    color: #555;
+}
+.all-rate{
+    margin-left: 0 !important;
+    color: #959595 !important;
 }
