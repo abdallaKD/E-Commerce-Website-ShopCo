@@ -321,7 +321,7 @@ window.onload = () => {
 
 
 function fetchProducts() {
-    fetch("https://dummyjson.com/products")
+    fetch("https://dummyjson.com/products?limit=60")
         .then(res => res.json())
         .then(data => {
             allProducts = data.products;
